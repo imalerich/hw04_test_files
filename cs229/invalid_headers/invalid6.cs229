@@ -1,0 +1,14 @@
+Cs229
+
+Samples	4
+channels 3
+
+# BitRes is required, missing here
+
+SaMpLeRaTe	11025
+
+StartData
+0		-127	127
+10		45		-103
+20		83		-4
+30		0		99

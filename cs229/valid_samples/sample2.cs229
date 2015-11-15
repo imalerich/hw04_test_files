@@ -2,11 +2,6 @@ Cs229
 
 #Does your code still work with no spaces in between the '#' and the start of the comment?
 
-#How do you want to handle white space before comments?
-
-#A really short sound to illustrate this file format
-#This is the exact same as seen in Assignment04.pdf
-
 Samples	4
 
 #We are doing something bizarre with the channels?

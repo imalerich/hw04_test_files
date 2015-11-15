@@ -1,16 +1,11 @@
 Cs229
 
-# A really short sound to illustrate this file format
-# This is the exact same as seen in Assignment04.pdf
-
 Samples	4
-# We are doing something bizarre with the channels?
 channels 3
 
 # page(1) Only valid values are -127 -> 128
 BitRes	8
 
-# Because we can:
 SaMpLeRaTe	11025
 
 # Make sure you are not allowing -128!
