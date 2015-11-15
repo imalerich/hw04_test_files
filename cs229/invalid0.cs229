@@ -1,0 +1,14 @@
+Cs229
+
+Samples	4
+channels 3
+
+# page (7) bit depth MUST be 8, 16, or 32 bits
+BitRes	9
+
+SaMpLeRaTe	11025
+
+0		-127	127
+10		45		-103
+20		83		-4
+30		0		99

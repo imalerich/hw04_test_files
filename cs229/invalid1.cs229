@@ -1,0 +1,14 @@
+Cs229
+
+Samples	4
+# page (7) channels MUST be less than 128 (is equal to 128)
+channels 128
+
+BitRes	8
+
+SaMpLeRaTe	11025
+
+0		-127	127
+10		45		-103
+20		83		-4
+30		0		99
