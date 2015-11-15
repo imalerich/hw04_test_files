@@ -18,6 +18,7 @@ BitRes	8
 SaMpLeRaTe	11025
 
 #From here on things are more rigid
+StartData
 0		-127	127
 10		45		-103
 20		83		-4

@@ -11,6 +11,7 @@ SaMpLeRaTe	11025
 # Only provide 5 Samples, but header says 18
 # Should this be a warning? Ingore the 18?
 # Add a bunch of 0's?
+StartData
 0		-127	127
 10		45		-103
 20		83		-4

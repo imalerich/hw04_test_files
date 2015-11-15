@@ -10,6 +10,7 @@ SaMpLeRaTe	11025
 
 # only decimals are going to fit in the bit rate
 # maybe warning or error
+StartData
 0.1234		-127	127
 10		45.23		-103
 20		83		-4
