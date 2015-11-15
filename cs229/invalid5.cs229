@@ -1,0 +1,17 @@
+Cs229
+
+Samples	5
+
+channels 8
+
+BitRes	8
+
+SaMpLeRaTe	11025
+
+# only decimals are going to fit in the bit rate
+# maybe warning or error
+0.1234		-127	127
+10		45.23		-103
+20		83		-4
+30		0		99.88
+0		0		0
