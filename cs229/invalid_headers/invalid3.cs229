@@ -1,18 +1,15 @@
 Cs229
 
-Samples	5
-
-channels 8
+Samples	4
+# page (7) channels MUST be less than 128 BUT greater than 0
+channels 0
 
 BitRes	8
 
 SaMpLeRaTe	11025
 
-# only decimals are going to fit in the bit rate
-# maybe warning or error
 StartData
-0.1234		-127	127
-10		45.23		-103
+0		-127	127
+10		45		-103
 20		83		-4
-30		0		99.88
-0		0		0
+30		0		99
