@@ -1,0 +1,34 @@
+Cs229
+
+# This sample has the same number of channels
+# same SampleRate, BitRes, and Sample Count
+# as sampleA.cs229
+
+Channels 2
+BitRes 16
+SampleRate 5
+
+# 20 Samples / 5 SampleRate = 4 Seconds Long
+
+StartData
+
+5 1
+15 2
+25 3
+35 4
+45 5
+55 6
+65 7
+75 8
+85 9
+95 10
+105 11
+115 12
+125 13
+135 14
+145 15
+155 16
+165 17
+175 18
+185 19
+195 20
