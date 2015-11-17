@@ -12,5 +12,5 @@ StartData
 0		-127	127
 10		45		-103
 20		83		-4
-0		0		0		1
+0		0		0		1010101
 # Too many channels provided 
