@@ -1,0 +1,27 @@
+Cs229
+
+Channels 2 # How about comments after everything
+BitRes 16 # I'm calling this valid
+SampleRate 5 # You could call it an error
+StartData # No need to get angry over any disagreements
+
+0 5
+10 15
+20 25
+30 35
+40 45
+50 55
+60 65
+70 75
+80 85
+90 95
+100 105
+110 115
+120 125
+130 135
+140 145 
+150 155 
+160 165
+170 175
+180 185
+190 195
