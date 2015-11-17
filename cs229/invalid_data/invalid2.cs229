@@ -12,6 +12,6 @@ SaMpLeRaTe	11025
 # +128 is still allowed!
 StartData
 0	1	128
+-3	-128	128
 0	-1	-1
 -1	2	3
--3	-128	128
