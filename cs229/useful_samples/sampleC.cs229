@@ -1,0 +1,36 @@
+Cs229
+
+# Similar file to sampleA and sampleB
+# but this file has one additional channel
+# for testing addition when files
+# have different channel counts
+
+Channels 3
+BitRes 16
+SampleRate 5
+
+# 21 Samples / 5 SampleRate ~ 4 Seconds Long
+
+StartData
+
+5 1 2
+15 2 4
+25 3 6
+35 4 8
+45 5 10
+55 6 12
+65 7 14
+75 8 15
+85 9 16
+95 10 18
+105 11 20
+115 12 22
+125 13 24
+135 14 26
+145 15 28
+155 16 30
+165 17 32
+175 18 34
+185 19 36
+195 20 38
+205 21 40
