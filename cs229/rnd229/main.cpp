@@ -46,16 +46,20 @@ int main(int argc, char ** argv) {
 	char c = 0;
 	int option_index = 0;
 
-	while ((c = getopt_long(argc, argv, "hno:f:c:l:012", long_options, &option_index)) != -1) {
+	while ((c = getopt_long(argc, argv, "hno:f:c:l:", long_options, &option_index)) != -1) {
 		switch(c) {
 			case 0:
 				switch (option_index) {
-				case 3: // min-channels
+				case 4: // min-channels
 					min_channels = atoi(optarg);
+					cout << "min_channels: " << min_channels << endl;
 					break;
 
-				case 5: // min-length
+				case 6: // min-length
 					min_length = atoi(optarg);
+					break;
+
+				default:
 					break;
 				}
 
