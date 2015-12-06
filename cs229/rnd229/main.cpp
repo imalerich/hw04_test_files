@@ -50,12 +50,10 @@ int main(int argc, char ** argv) {
 				switch (option_index) {
 				case 3: // min-channels
 					min_channels = atoi(optarg);
-					cout << "min_channels: " << min_channels << endl;
 					break;
 
 				case 5: // min-length
 					min_length = atoi(optarg);
-					cout << "min_length: " << min_length << endl;
 					break;
 				}
 
@@ -63,21 +61,17 @@ int main(int argc, char ** argv) {
 
 			case 'o':
 				file_name = string(optarg);
-				cout << "file_name: " << file_name << endl;
 				break;
 
 			case 'f':
 				freq_mult = atoi(optarg);
-				cout << "freq_mult: " << freq_mult << endl;
 
 			case 'c':
 				max_channels = atoi(optarg);
-				cout << "max_channels: " << max_channels << endl;
 				break;
 
 			case 'l':
 				max_length = atoi(optarg);
-				cout << "max_length: " << max_length << endl;
 				break;
 				
 			case 'h':
@@ -151,17 +145,17 @@ void print_info() {
 }
 
 void print_help() {
-		cout << "Usage: rnd229 [options]" << endl;
-		cout << "  -h --help\tDisplay this information" << endl;
-		cout << "  -o --output\tOutput file name (default 'rnd.cs229')" << endl;
-		cout << "  -f --freq\tFrequency multiplier, SampleRate will be a random value in the range (1, 4) times this value (deafault '20')" << endl;
-		cout << "  --min-channels\tMinimum number of channels in the output file (default '1')" << endl;
-		cout << "  -c --max-channels\tMaximum number of channels in the output file (default '7')" << endl;
-		cout << "  --min-length\tMinimum length of generated sound (in seconds) (default '1')" << endl;
-		cout << "  -l --max-length\tMaximum length of generated sound (in seconds) (default '30')" << endl;
-		cout << "Generates a random .cs229 file within the input bounds." << endl;
-		cout << "The output will be written to the specified file (rnd.cs229 if none present) and the appropriate info for 'sndinfo' will be written to the standard output." << endl;
-		cout << "If no arguments are provided, this program will generate the file rnd.cs229 with (1,7) channels, with a length of (1,30) seconds." << endl;
-		cout << "BitResolution will either be 8, 16, or 32 bits. Samples are generated at random to fit within that bit depth." << endl;
-		cout << "This program was written by Ian Malerich for testing hw04 of cs229 at Iowa State University (Fall 2015)." << endl;
+	cout << "Usage: rnd229 [options]" << endl;
+	cout << "  -h --help\tDisplay this information" << endl;
+	cout << "  -o --output\tOutput file name (default 'rnd.cs229')" << endl;
+	cout << "  -f --freq\tFrequency multiplier, SampleRate will be a random value in the range (1, 4) times this value (deafault '20')" << endl;
+	cout << "  --min-channels\tMinimum number of channels in the output file (default '1')" << endl;
+	cout << "  -c --max-channels\tMaximum number of channels in the output file (default '7')" << endl;
+	cout << "  --min-length\tMinimum length of generated sound (in seconds) (default '1')" << endl;
+	cout << "  -l --max-length\tMaximum length of generated sound (in seconds) (default '30')" << endl;
+	cout << "Generates a random .cs229 file within the input bounds." << endl;
+	cout << "The output will be written to the specified file (rnd.cs229 if none present) and the appropriate info for 'sndinfo' will be written to the standard output." << endl;
+	cout << "If no arguments are provided, this program will generate the file rnd.cs229 with (1,7) channels, with a length of (1,30) seconds." << endl;
+	cout << "BitResolution will either be 8, 16, or 32 bits. Samples are generated at random to fit within that bit depth." << endl;
+	cout << "This program was written by Ian Malerich for testing hw04 of cs229 at Iowa State University (Fall 2015)." << endl;
 }
