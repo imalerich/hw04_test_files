@@ -1,3 +1,4 @@
 *.swp
 *.o
 cs229/rnd229/rnd229
+cs229/rnd229/*.cs229

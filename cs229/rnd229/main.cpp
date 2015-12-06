@@ -141,7 +141,7 @@ void print_info() {
 	cout << "Bit Depth:\t" << bit_res << endl;
 	cout << "Num Channels:\t" << num_channels << endl;
 	cout << "Num Samples:\t" << num_samples << endl;
-	cout << "Length:\t" << num_samples / (double)sample_rate << " seconds" << endl;
+	cout << "Length:\t\t" << num_samples / (double)sample_rate << " seconds" << endl;
 }
 
 void print_help() {
