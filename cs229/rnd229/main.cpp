@@ -11,6 +11,7 @@ using namespace std;
 
 string file_name = "rnd.cs229";
 int freq_mult = 20;
+bool rand_freq = true;
 int min_channels = 1;
 int max_channels = 7;
 int min_length = 1; // seconds
@@ -34,6 +35,7 @@ int main(int argc, char ** argv) {
 		{ "help", no_argument, 0, 'h' },
 		{ "output", required_argument, 0, 'o' },
 		{ "freq", required_argument, 0, 'f' },
+		{ "non-rand-freq", no_argument, 0, 'n' },
 		{ "min-channels", required_argument, 0, 0 },
 		{ "max-channels", required_argument, 0, 'c' },
 		{ "min-length", required_argument, 0, 0 },
@@ -44,7 +46,7 @@ int main(int argc, char ** argv) {
 	char c = 0;
 	int option_index = 0;
 
-	while ((c = getopt_long(argc, argv, "ho:f:c:l:012", long_options, &option_index)) != -1) {
+	while ((c = getopt_long(argc, argv, "hno:f:c:l:012", long_options, &option_index)) != -1) {
 		switch(c) {
 			case 0:
 				switch (option_index) {
@@ -73,6 +75,10 @@ int main(int argc, char ** argv) {
 			case 'l':
 				max_length = atoi(optarg);
 				break;
+
+			case 'n':
+				rand_freq = false;
+				break;
 				
 			case 'h':
 				print_help();
@@ -89,7 +95,7 @@ int main(int argc, char ** argv) {
 	// create the limit values for the generated file
 	num_channels = (rand() % (max_channels - min_channels + 1) + min_channels); // number of channels from (min_channels, max_channels) 
 	bit_res = pow(2, (rand() % 3 + 3)); // 8, 16, or 32
-	sample_rate = (rand() % 4 + 1) * freq_mult; // freq_mult hz * (1, 4)
+	sample_rate = (rand_freq ? (rand() % 4 + 1) : 1) * freq_mult; // freq_mult hz * (1, 4)
 	num_samples = sample_rate * (rand() % (max_length - min_length + 1) + min_length); // (min_length, max_length) seconds long
 
 	// generate the file
@@ -153,6 +159,7 @@ void print_help() {
 	cout << "  -c --max-channels\tMaximum number of channels in the output file (default '7')" << endl;
 	cout << "  --min-length\tMinimum length of generated sound (in seconds) (default '1')" << endl;
 	cout << "  -l --max-length\tMaximum length of generated sound (in seconds) (default '30')" << endl;
+	cout << "  -n --non-rand-freq\tInstead of generating a semi-random frequency, the frequency multipler is used instead" << endl;
 	cout << "Generates a random .cs229 file within the input bounds." << endl;
 	cout << "The output will be written to the specified file (rnd.cs229 if none present) and the appropriate info for 'sndinfo' will be written to the standard output." << endl;
 	cout << "If no arguments are provided, this program will generate the file rnd.cs229 with (1,7) channels, with a length of (1,30) seconds." << endl;
