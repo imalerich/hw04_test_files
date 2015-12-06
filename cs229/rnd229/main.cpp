@@ -67,6 +67,7 @@ int main(int argc, char ** argv) {
 
 			case 'f':
 				freq_mult = atoi(optarg);
+				break;
 
 			case 'c':
 				max_channels = atoi(optarg);
