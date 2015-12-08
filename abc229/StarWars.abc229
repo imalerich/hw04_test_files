@@ -1,0 +1,27 @@
+Abc229
+%
+% Plays a quick scale
+%
+
+Tempo 360
+
+% Note: first instrument is number 0
+
+Instrument 0
+Waveform Sine
+Volume 1.0
+Attack 0.002
+Decay 1.5
+Sustain 0
+Release 0.002
+
+Score
+[
+d d d g6 d'6 c' b' a' g'6 d'3 c' b' a' g'6 d'3 c' b' c' a'6
+d2 d g6 d'6 c' b' a' g'6 d'3 c' b' a' g'6 d'3 c' b' c' a'6
+d2 d e4.5 e1.5 c'1.5 b'1.5 a'1.5 g1.5 g a' b' a'2 e f#3
+d2 d e4.5 e1.5 c'1.5 b'1.5 a'1.5 g1.5 d'2.25 a'0.75 a'6
+d2 d e4.5 e1.5 c'1.5 b'1.5 a'1.5 g1.5 g a' b' a'2 e f#3
+d'2.25 d'0.75 g'2 f' d#'2 d' c'2 a#' a'2 g d'12
+d d d g6 d'6 c' b' a' g'6 d'3 c' b' a' g'6 d'3 c' b' c' a'6
+]
