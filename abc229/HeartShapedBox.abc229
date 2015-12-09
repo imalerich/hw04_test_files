@@ -1,0 +1,26 @@
+Abc229
+%
+% Plays a quick scale
+%
+
+Tempo 216
+
+% Note: first instrument is number 0
+
+Instrument 0
+Waveform Sine
+Volume 1.0
+Attack 0.002
+Decay 1.5
+Sustain 0
+Release 0.002
+
+Score
+[
+a b c d2 e2 d2 c2 b2 c3 z b2 a2 a5 z4
+a b c d2 e2 d2 c#2 b2 c3 z b2 a2 a5 z4
+z2 e e d c2 e2 d2 c#2 b2 c3 z2 z 
+c0.5 d0.5 e g2 e2 d3 z2 z2
+a b c d d e2 d d c# z c# b c3 z b2 a2 a2 a2 a2 a z2 z2
+]
+
