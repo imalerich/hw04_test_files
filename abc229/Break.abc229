@@ -1,6 +1,10 @@
 Abc229
 %
-% Plays a quick scale
+% Break
+% 	Three Days Grace
+%	as arranged by Steve Shanley
+%	for Linn-Mar 10th Street Edition 2013/2014
+%	Converted to Abc229 format by Ian Malerich
 %
 
 Tempo 240
@@ -16,15 +20,6 @@ Release 0.002
 
 Score
 [
-c2 a2 z2 c1.5 a1.5 a d2 a2 z2 c2 a2 z2
-a#1.5 a1.5 g, f,1.5 g,1.5 a z2
-c2 a2 z a c1.5 a1.5 a d2 a2 z a c2 a2 z a
-a#1.5 a1.5 g, f,1.5 g,1.5 a z2
-a'2 g2 z2 a'1.5 g1.5 e a#'2 a'2 z2 a'2 g2 z2
-d'3 d'2 c' d'2
-a'2 z3 a' g f g2 a'2 g2 e2 a'2 z3 a' g f g2 a'2 g2
-z a' a'2 g2 f2 z a' a#'2 a'2 g2 a'2 a'2 z a' g2 z a' a#'2 c'2 a#'2 a'2
-z16 z2
 c2 a2 z2 c1.5 a1.5 a d2 a2 z2 c2 a2 z2
 a#1.5 a1.5 g, f,1.5 g,1.5 a z2
 c2 a2 z a c1.5 a1.5 a d2 a2 z a c2 a2 z a
@@ -54,15 +49,6 @@ f,2 e,2 z2 f,1.5 e,1.5 c, g,2 f,2 z2 f,2 e,2 z2
 f,3 g,2 c d2
 a'2 z3 a' g f g2 a'2 g2 e2 a'2 z3 a' g f g2 a'2 g2
 z a' a'2 g2 f2 z a' a#'2 a'2 g2 a'2 a'2 z a' g2 z a' a#'2 c'2 a#'2 a'2
-z16 z2
-c2 a2 z2 c1.5 a1.5 a d2 a2 z2 c2 a2 z2
-a#1.5 a1.5 g, f,1.5 g,1.5 a z2
-c2 a2 z a c1.5 a1.5 a d2 a2 z a c2 a2 z a
-a#1.5 a1.5 g, f,1.5 g,1.5 a z2
-f,2 e,2 z2 f,1.5 e,1.5 c, g,2 f,2 z2 f,2 e,2 z2
-f,3 g,2 c d2
-a'2 z3 a' g f g2 a'2 g2 e2 a'2 z3 a' g f g2 a'2 g2
-z a' a'2 g2 f2 z a' a#'2 a'2 g2 a'2 a'2 z a' g2 z a' a#'2 c'2 a#'2 a'2
 ]
 
 % Tenor 
@@ -84,15 +70,6 @@ f2 e2 z2 f1.5 e1.5 c g2 f2 z2 f2 e2 z2
 f3 g2 c d2
 d2 z3 e d c c2 c2 c2 c2  d2 z3 e d c c2 c2 c2
 z f f2 e2 d2 z f g2 f2 e2 e2 d2 z d c2 z f g2 g2 g2 f2
-z16 z2
-c2 a2 z2 c1.5 a1.5 a d2 a2 z2 c2 a2 z2
-f1.5 e1.5 d c1.5 d1.5 e z2
-c2 a2 z a c1.5 a1.5 a d2 a2 z a c2 a2 z a
-f1.5 e1.5 d c1.5 d1.5 e z2
-f2 e2 z2 f1.5 e1.5 c g2 f2 z2 f2 e2 z2
-f3 g2 c d2
-d2 z3 e d c c2 c2 c2 c2  d2 z3 e d c c2 c2 c2
-z f f2 e2 d2 z f g2 f2 e2 e2 d2 z d c2 z f g2 g2 g2 f2
 ]
 
 % Bass 
@@ -106,15 +83,6 @@ Release 0.002
 
 Score
 [
-c2 a2 z2 c1.5 a1.5 a d2 a2 z2 c2 a2 z2
-a#1.5 a1.5 g, f,1.5 g,1.5 a z2
-c2 a2 z a c1.5 a1.5 a d2 a2 z a c2 a2 z a
-a#1.5 a1.5 g, f,1.5 g,1.5 a z2
-a#2 a#2 z2 a#1.5 a#1.5 a# a#2 c2 z2 d2 d2 z2
-d3 d2 c d2
-d2 z3 e d c c2 c2 c2 c2  d2 z3 e d c c2 c2 c2
-z d d2 e2 d2 z d c2 c2 c2 c2 d2 z d c2 z c c2 c2 c2 d2
-z16 z2
 c2 a2 z2 c1.5 a1.5 a d2 a2 z2 c2 a2 z2
 a#1.5 a1.5 g, f,1.5 g,1.5 a z2
 c2 a2 z a c1.5 a1.5 a d2 a2 z a c2 a2 z a
